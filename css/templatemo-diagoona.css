@@ -122,10 +122,10 @@ p { line-height: 1.9; }
 .tm-row { display: flex; }
 
 .tm-col-harita {
-    width: 50%;
+    width: 80%;
     height: 80%;
     padding-left: 20px;  
-    padding-right: 20px;
+    
 }
 
 .tm-col-left {
