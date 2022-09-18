@@ -326,8 +326,8 @@ textarea {
 }
 
 @media (max-width: 460px) {
-    .tm-sitename { font-size: 2.8rem; }
-    .tm-slogon { font-size: 1.8rem; }
+    .tm-sitename { font-size: 1.8rem; }
+    .tm-slogon { font-size: 0.8rem; }
 }
 
 @media (max-width: 450px), (min-width: 768px) and (max-width: 830px), (min-width: 992px) and (max-width: 1040px) {
