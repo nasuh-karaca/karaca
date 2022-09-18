@@ -46,13 +46,14 @@ p { line-height: 1.9; }
     padding-right: 0;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link { padding: 0; }
+.navbar-expand-lg .navbar-nav .nav-link { padding: 0;
+}
 
 .navbar-expand-lg .navbar-nav .tm-nav-link {
     font-size: 1.3rem;
     font-weight: 400;
     color: white;    
-    padding-bottom: 30px;    
+    padding-bottom: 30px;	
 }
 
 .nav-item { margin-right: 60px; }
@@ -252,11 +253,11 @@ textarea {
 
 @media (max-width: 992px) {    
     .tm-nav {
-        position: absolute;
+        position:fixed;
         background: rgba(0, 0, 0, 0.8);
         color: white;
-        top: 44px;
-        right: 4px;
+         margin-top: 250px;
+		right: 0px;
     }
 
     .navbar-expand-lg .navbar-nav .tm-nav-link {
