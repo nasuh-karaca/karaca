@@ -42,8 +42,8 @@ p { line-height: 1.9; }
 .navbar-toggler i { transform: skewX(15deg); }
 
 .navbar-expand-lg {
-    padding-left: 0;
-    padding-right: 0;
+    position: absolute;
+    right:5px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link { padding: 0;
@@ -186,9 +186,9 @@ hr { border-top: 1px solid white; }
 }
 
 .tm-site-footer {
-    padding: 40px 0 20px;
-    max-width: 660px;
     font-size: 0.95rem;
+	position: absolute;
+    right:15px;
 }
 
 .tm-col-footer { padding-left: 0; }
