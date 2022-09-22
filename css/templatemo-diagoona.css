@@ -30,7 +30,8 @@ p { line-height: 1.9; }
 /* Navigation */
 .navbar-toggler {
 	float:right;
-	position:absolute;
+	position:fixed;
+	right:5px;
     padding: 8px 15px;
     border: 0;
     border-radius: 0;
